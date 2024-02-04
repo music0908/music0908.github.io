@@ -10,7 +10,7 @@ comments: true
 
 # 线段树拓展
 
-![库库尔坎](https://cdn.luogu.com.cn/upload/image_hosting/lvyze04d.png)
+![114098628_p0_master1200.jpg](https://s2.loli.net/2024/02/04/HbkPoLrBDEuenAK.jpg)
 
 ### I.权值线段树与动态开点线段树
 
