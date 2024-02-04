@@ -2,7 +2,7 @@
 layout: post
 title: 线段树拓展
 date: 2024-02-04
-Author: music0908
+author: music0908
 tags: [OI]
 comments: true
 pinned: true
