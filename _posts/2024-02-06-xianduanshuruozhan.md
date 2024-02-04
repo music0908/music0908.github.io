@@ -3,12 +3,9 @@ layout: post
 title: 线段树拓展
 date: 2024-02-04
 Author: music0908
-categories: true
 tags: [OI]
 comments: true
-toc: true
 --- 
-
 ![114098628_p0_master1200.jpg](https://s2.loli.net/2024/02/04/gP9LKWOMSCtyU7H.jpg)
 
 ### I.权值线段树与动态开点线段树
