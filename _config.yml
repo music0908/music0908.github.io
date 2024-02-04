@@ -52,15 +52,15 @@ footer-links:
   behance: # https://www.behance.net/<>
   dribbble: # https://dribbble.com/<>
   email: cherrybloominjuly@gmail.com
-  facebook: https://www.facebook.com/profile.php?id=61552989130607
+  facebook: profile.php?id=61552989130607
   flickr: #https://www.flickr.com/<>
-  github: https://github.com/music0908
+  github: music0908
   instagram: #https://instagram.com/<>
   linkedin: #https://www.linkedin.com/in/<>
-  pinterest: https://www.pinterest.com/cherrybloominjuly
+  pinterest: cherrybloominjuly
   rss: #随便填点啥RSS就能用了
   stackoverflow: # http://stackoverflow.com/<>
-  tumblr: https://music0908.tumblr.com
+  tumblr: music0908
   twitter: # https://www.twitter.com/<your_twitter_username> 
   youtube: # channel/<your_long_string> or user/<user-name>
 
