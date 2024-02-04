@@ -50,21 +50,21 @@ footer-links:
   weibo:  #请输入你的微博个性域名 https://www.weibo.com/<thispart>
   behance: # https://www.behance.net/<>
   dribbble: # https://dribbble.com/<>
-  email: #youremailaddress@mail.com
-  facebook: #https://www.facebook.com/<>
+  email: cherrybloominjuly@gmail.com
+  facebook: https://www.facebook.com/profile.php?id=61552989130607
   flickr: #https://www.flickr.com/<>
-  github: FromEndWorld/loffer #https://github.com/<>
+  github: https://github.com/music0908
   instagram: #https://instagram.com/<>
   linkedin: #https://www.linkedin.com/in/<>
-  pinterest: #https://www.pinterest.com/<>
+  pinterest: https://www.pinterest.com/cherrybloominjuly
   rss: #随便填点啥RSS就能用了
   stackoverflow: # http://stackoverflow.com/<>
-  tumblr: # https://<username>.tumblr.com
+  tumblr: https://music0908.tumblr.com
   twitter: # https://www.twitter.com/<your_twitter_username> 
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # 站点页脚的文字
-footer-text: Copyright (c) 2019 来自中世界
+footer-text: Copyright (c) 2024 music0908
 
 #
 # 评论，注意，请不要同时添加多种不同的评论区
