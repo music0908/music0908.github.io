@@ -17,7 +17,6 @@ toc: true
 
 - 权值数组所记录的是**某一元素在整个序列中出现的次数**。例如，在$1,1,3,5,6,4,8$中，将每个元素记为$a[i]$，权值数组记为$b[i]$，我们要得到数字$1$出现的次数时所得的结果便是$b[1]=2$。显然地，我们会发现
   $$
-  \begin{aligned}
 b_i=\sum^n_{j=1} [a_j=i] \\
 y = y(x,t) &= A e^{i\theta} \\
 &= A (\cos \theta + i \sin \theta) \\
@@ -25,7 +24,6 @@ y = y(x,t) &= A e^{i\theta} \\
 &= A\cos(kx - \omega t) + i A\sin(kx - \omega t)  \\
 &= A\cos \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big) + i A\sin \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big)  \\
 &= A\cos \frac{2\pi}{\lambda} (x - v t) + i A\sin \frac{2\pi}{\lambda} (x - v t)
-\end{aligned}
   $$
   因而权值数组的大小与序列元素的大小（值域）有直接关系，在序列的值域巨大时，权值数组的空间占用是很可怖的。为了解决这个问题，我们使用了**动态开点线段树**。
 
