@@ -3,7 +3,7 @@ layout: post
 title: 线段树拓展
 date: 2024-02-04
 author: music0908
-tags: [OI]
+tags: [OI, 线段树, 板子]
 comments: true
 pinned: true
 --- 
