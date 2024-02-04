@@ -6,9 +6,8 @@ Author: music0908
 categories: true
 tags: [OI, 线段树, 数据结构]
 comments: true
+toc: true
 --- 
-
-# 线段树拓展
 
 ![114098628_p0_master1200.jpg](https://s2.loli.net/2024/02/04/HbkPoLrBDEuenAK.jpg)
 
@@ -16,15 +15,13 @@ comments: true
 
 区别于普通线段树所记录的区间和，权值线段树维护的是一个序列的**权值数组**。
 
-- 权值数组所记录的是**某一元素在整个序列中出现的次数**。例如，在 1,1,3,5,6,4,8 中，将每个元素记为 a[i] ，权值数组记为 b[i] ，我们要得到数字 1 出现的次数时所得的结果便是 b[1]=2 。显然地，我们会发现
+- 权值数组所记录的是**某一元素在整个序列中出现的次数**。例如，在$1,1,3,5,6,4,8$中，将每个元素记为$a[i]$，权值数组记为$b[i]$，我们要得到数字$1$出现的次数时所得的结果便是$b[1]=2$。显然地，我们会发现
   $$
-  \begin{align*}
   b_i=\sum^n_{j=1} [a_j=i]
-  \end{align*}
   $$
   因而权值数组的大小与序列元素的大小（值域）有直接关系，在序列的值域巨大时，权值数组的空间占用是很可怖的。为了解决这个问题，我们使用了**动态开点线段树**。
 
-动态开点线段树的原理与离散化类似，用标号解决**因过于稀疏而产生的空间过大问题**，其本质上是将操作的点在使用时再创造。因此，用以记录左右儿子的 i >> 1 和 i >> 1|1 便失效了。于是我们使用创造并更新左右儿子编号的方式来记录这棵树。*大抵上，这与链式前向星有些近似。*
+动态开点线段树的原理与离散化类似，用标号解决**因过于稀疏而产生的空间过大问题**，其本质上是将操作的点在使用时再创造。因此，用以记录左右儿子的$i>>1$和$i>>1|1$便失效了。于是我们使用创造并更新左右儿子编号的方式来记录这棵树。*大抵上，这与链式前向星有些近似。*
 
 建树：
 
@@ -122,16 +119,14 @@ inline int kth(int &i,int l,int r,int k){//给排名求元素
 
 前驱与后继
 
-前驱： k 的前驱的定义为小于 k ，且最大的数
+前驱：$k$的前驱的定义为小于$k$，且最大的数
 
-后继： k 的后继的定义为大于 k ，且最小的数
+后继：$k$的后继的定义为大于$k$，且最小的数
 
 ```cpp
 kth(root,1,M<<1,rnk(root,1,M<<1,1,x+M-1))-M;
 kth(root,1,M<<1,rnk(root,1,M<<1,1,x+M)+1)-M;
 ```
-
-鉴于 kth 所求索的是一个数在排列中的总排名，故而在寻找后继时只用输出 k 的
 
 ##### 完整模板：
 
@@ -240,11 +235,11 @@ int main(){
 
 > 参考：
 >
-> 权值线段树详解-xiezheyuan  https://www.cnblogs.com/zheyuanxie/p/wsgt.html
+> [权值线段树详解-xiezheyuan](https://www.cnblogs.com/zheyuanxie/p/wsgt.html)
 >
-> 浅谈权值线段树-bf https://www.luogu.com.cn/blog/bfqaq/qian-tan-quan-zhi-xian-duan-shu
+> [浅谈权值线段树-bf](https://www.luogu.com.cn/blog/bfqaq/qian-tan-quan-zhi-xian-duan-shu)
 >
-> 动态开点线段树-OI Wiki https://oi-wiki.org/ds/seg/#%E5%8A%A8%E6%80%81%E5%BC%80%E7%82%B9%E7%BA%BF%E6%AE%B5%E6%A0%91
+> [动态开点线段树-OIWiki](https://oi-wiki.org/ds/seg/#%E5%8A%A8%E6%80%81%E5%BC%80%E7%82%B9%E7%BA%BF%E6%AE%B5%E6%A0%91)
 
 ### II.线段树合并
 
