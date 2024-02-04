@@ -1,4 +1,3 @@
-```
 ---
 layout: post
 title: 线段树拓展
@@ -8,7 +7,6 @@ categories: true
 tags: [OI, 线段树, 数据结构]
 comments: true
 --- 
-```
 
 # 线段树拓展
 
