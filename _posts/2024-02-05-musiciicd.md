@@ -18,3 +18,22 @@ author: music0908
 ![115519275_p0.png](https://s2.loli.net/2024/02/05/R4AOGETfU8zBd9g.png)
 ![113654528_p0.png](https://s2.loli.net/2024/02/05/cK1LpR5Clwn9Pmu.png)
 
+
+
+![-2024-03-10-191458.png](https://www.laa.one/images/2024/03/10/-2024-03-10-191458.png)
+
+易见，第$i$行表示从$i$一部能到的点，第$j$行表示$j$能到的点，由矩阵乘法的定义可以知道，两者相乘得到的矩阵表示的就是原矩阵每一点走两步到达的另一点的方案数。如上图，有矩阵
+$$
+A=\begin{bmatrix}
+0&1&1\\
+1&1&1\\
+1&0&0\\
+\end{bmatrix}\\
+A^2=\begin{bmatrix}
+2&1&1\\
+2&2&2\\
+0&1&1\\
+\end{bmatrix}
+$$
+[广义矩阵乘法](https://www.cnblogs.com/RainPPR/p/matrix-multiplication.html)
+
