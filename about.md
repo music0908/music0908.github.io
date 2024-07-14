@@ -5,4 +5,4 @@ permalink: /about/
 ---
 
 坐标SN-XA,代词请用“她”
-现役“女高生” $&$ OIer
+现役“女高生” $ & $ OIer
