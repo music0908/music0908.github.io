@@ -7,9 +7,8 @@
 # 井号后面的文字是说明文档，不会被程序读取。
 
 # 描述/签名
-name: sḫt-jꜣrw  Sekhet-Aaru
-description: 遍布苇草の原野
-
+name: sḫt-jꜣrw
+description: musicの随笔
 # 输入你的网站域名（如果你没有添加自己的域名，而是直接用GitHub pages分配的域名的话可以省略）
 url: https://music0908.github.io/
 
@@ -24,7 +23,7 @@ baseurl: /
 #
 
 # 你的博客logo图片URL，建议尺寸不超过300px × 300px
-avatar: https://cdn.luogu.com.cn/upload/image_hosting/r2nhb4yb.png
+avatar: https://sm.ms/image/2TpbIhtNSjAZqlD
 
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
 favicon: https://music0908.files.wordpress.com/2024/01/cropped-2841a6cc992fccff7c5b900d6b3863c2.jpg?resize=219,219
