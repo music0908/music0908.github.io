@@ -4,7 +4,7 @@ title: 线段树拓展
 date: 2024-02-04
 author: music0908
 tags: [OI, 线段树, 板子]
-comments: false
+comments: true
 --- 
 ![114098628_p0_master1200.jpg](https://s2.loli.net/2024/02/04/gP9LKWOMSCtyU7H.jpg)
 
