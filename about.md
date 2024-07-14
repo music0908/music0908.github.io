@@ -4,4 +4,5 @@ title: 关于
 permalink: /about/
 ---
 
-这是一个关于页面，请编辑about.md以介绍你的博客。
+坐标SN-XA,代词请用“她”
+现役“女高生” $&$ OIer
